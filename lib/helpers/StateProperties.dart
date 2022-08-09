@@ -1,0 +1,32 @@
+abstract class StateProperties {
+  static String get voiceBoxItems => 'voiceBoxItems';
+  static String get learningObjects => 'learningObjects';
+  static String get gridObjects => 'gridObjects';
+  static String get isEditMode => 'isEditMode';
+  static String get selectedFolder => '_selectedFolder';
+  static String get selectedImage => '_selectedImage';
+  static String get selectedVideo => '_selectedVideo';
+  static String get selectedSound => '_selectedSound';
+  static String get selectedEmpty => '_selectedEmpty';
+  static String get currentFolder => 'currentFolder';
+  static String get folderBreadcrumb => 'folderBreadcrumb';
+  static String get defaultFolderId => 'defaultFolderId';
+  static String get parentFolder => 'parentFolder';
+  static String get currentFolderId => 'currentFolderId';
+  static String get gridDimensions => 'gridDimensions';
+  static String get canCreateQuiz => 'canCreateQuiz';
+  static String get savingEditedObject => 'savingEditedObject';
+  static String get showHelperLevelSettings => 'showHelper_LevelSettings';
+  static String get showHelperFolders => 'showHelperFolders';
+  static String get currentActivity => 'currentActivity';
+  static String get showHelperImageSettings => 'showHelperImageSettings';
+  static String get selectFirstReinforcer => 'selectFirstReinforcer';
+  static String get selectSecondReinforcer => 'selectSecondReinforcer';
+  static String get selectThirdReinforcer => 'selectThirdReinforcer';
+  static String get refreshLearnScreen => 'refreshLearnScreen';
+  static String get refreshVoiceBox => 'refreshVoiceBox';
+  static String get findInAssetLibrary => 'findInAssetLibrary';
+  static String get objectToEdit => 'objectToEdit';
+  static String get showHelperSchedule => 'showHelperSchedule';
+  static String get canDrag => 'canDrag';
+}
